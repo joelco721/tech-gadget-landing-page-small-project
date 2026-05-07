@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.top_background{
+    background-image: url("/images/top_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: white;
+    height: 130px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.welcome ul li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.welcome ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.welcome ul a{
+    text-decoration: none;
+    font-size: 20px; 
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.welcome{
+    display: inline-flex;
+}
+
+.logo{
+    max-height: 150px;
+    width: auto;
+
+
+}
+
+.background_display{
+    background-image: url("images/top_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 15%;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+
+.headphone{
+    height: 500px;
+    width: 700px;
+    order: 1;
+}
+
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+    list-style: none;
+    padding-top: 100px;
+}
+
+
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    list-style: none;
+    padding-top: 20px;
+   
+}
+.review_watch_button{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    align-items: center;
+
+}
+
+
+#review{
+    color: white;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(5, 113, 254);
+    border: 2px solid rgb(5, 113, 254);
+    border-radius: 20px;
+    padding: 10px 60px ;
+    border-width: 100%;
+
+
+}
+
+#watch{
+    color: white;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(146, 4, 178);
+    border: 2px solid rgb(146, 4, 178);
+    border-radius: 20px;
+    padding: 13px 75px;
+    border-width: 100%;
+
+}
+
+#review:hover{
+    background-color: rgb(5, 113, 254, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+#watch:hover{
+    background-color: rgb(146, 4, 178, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+.menu_3{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+    padding-top: 40px;
+    background-color: rgb(227, 236, 238);
+    top: 10px;
+
+}
+
+.latest_review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(239, 239, 239);
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    height: 210px;
+    width: 400px;
+    
+}
+
+#rev1{
+    color: rgb(40, 6, 233);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+}
+
+#rev2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#rev3{
+    color: white;
+    background-color: rgb(40, 6, 233);;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(31, 19, 97);
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+#rev3:hover{
+    background-color: rgb(40, 6, 233, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+
+#gag1{  
+    color: rgb(72, 4, 99);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+
+}
+
+#gag2{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 20px;   
+
+}
+
+#gag3{
+    color: white;
+    background-color: rgb(123, 6, 233);;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(60, 7, 80);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#gag3:hover{
+    background-color: rgb(123, 6, 233, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+#tech1{
+    color: rgb(111, 5, 152);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+
+}
+
+#tech2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#tech3{
+    color: white;
+    background-color: rgb(78, 65, 91);;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(57, 54, 73);
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+footer{
+    height: 500px;
+    background-color: rgb(227, 236, 238);
+
+}
+
+@media (max-width: 1100px){
+    .top_background{
+        flex-direction: column;
+    }
+    .welcome ul{
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .background_display{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0%;
+       height: 700px;
+    }
+    
+    .headphone{
+        max-height: 300px;
+        max-width: 350px;
+    }
+
+    h1{
+       margin: 0%;
+       padding: 0%;
+       font-size: 30px;
+       text-align: center;
+
+
+    }
+
+    .intro_small{
+       display: flex;
+       justify-content: flex-start;
+    }
+    
+    h3{
+        margin:0%;
+        text-align: center;
+        padding-bottom: 30px;
+        
+    }
+
+    .review_watch_button{
+        padding: 0%;
+        justify-content: space-around;
+    }
+
+    #review{
+
+        padding: 10px 20px;
+        border-width: 100%;
+
+    }
+
+    #watch{
+        padding: 13px 35px;
+        border-width: 100%;
+    }
+
+    .menu_3{
+        flex-direction: column;
+        padding: 0%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .latest_review{
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+        height: auto;
+        width: 90%;
+        margin-top: 30px;
+       
+
+        
+    }
+
+
+       
+
+ 
+}
