@@ -29,10 +29,4 @@ This is a beginner frontend practice project.
 
 The main goal was to prove to myself that I can design and build a landing page independently using my current HTML and CSS knowledge.
 
-## Future Improvements
 
-- Add more JavaScript functionality
-- Improve accessibility
-- Add more sections to the page
-- Improve mobile responsiveness
-- Add real links and content
